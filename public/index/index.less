@@ -1,0 +1,351 @@
+.fl(){
+	float: left;
+}
+.fr(){
+	float:right;
+}
+
+.re(@left,@top){
+    position: relative;
+    left:@left;
+    top:@top
+}
+.abs(@left,@top){
+	position:absolute;
+	left:@left;
+	top:@top
+}
+.txCenter(){
+	text-align: center
+}
+.bgurl(@url){
+	background: url(@url)
+}
+.zInLower(){
+	z-index:0
+}
+.zInUpper(){
+	z-index:1
+}
+.mgCenter(){
+	margin:0 auto
+}
+
+@normalColor:#037cd9;
+@bgColor:white;
+@fs:14px;
+@fColor:#828080;
+@borderColor:#d6d6d6;
+@mainWidth:1044px;
+
+html{
+			height: 100%;
+		   }
+ a, address, b, big, blockquote, body, center, cite, code, dd, del, div,
+ dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6,
+ html, i, iframe,figure, img, ins, label, legend, li, ol, p, pre, 
+small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+        }
+        a{text-decoration: none}
+        li{list-style: none;}
+
+
+body{
+	@width:100%;
+	width: @width;
+	height:auto;
+	.re(0,0);
+	.bodyContanin{
+      width:@width;
+      height:auto;
+      .bgurl('../images/body-bj2.jpg');
+      background-repeat: no-repeat;
+      .re(0,0);
+	};
+  footer{
+    width: 100%;
+    height: 160px;
+    overflow:hidden;
+    .bgurl('../images/footer.jpg');
+  }
+}
+
+header{
+	@height:90px;
+	width:@mainWidth;
+	margin:0 auto;
+	height:@height;
+	// overflow: hidden;
+    figure{
+      margin-top: -1px;
+      float:left
+    };
+    span{
+    	.fr();
+    	font-size: @fs - 2;
+    	margin-left: 30px;
+    	margin-top:15px;
+    	a{
+    	color:@bgColor;
+    	}
+    }
+}
+
+nav{
+	height:40px;
+	width:100%;
+	background:#46a7f6;
+	border-top: 1px solid #138ae8;
+	border-bottom: 1px solid #138ae8;
+	.navContent{
+		width:780px;
+		height:100%;
+        .mgCenter();
+        ul{
+        	.fl();
+        	margin-top:12px
+        }
+        li{
+        	padding:0 30px;
+        	display: inline;
+        	color:@bgColor;
+        	font-weight: 600;
+        	cursor: pointer;
+        }
+	}
+}
+
+.mainBody{
+   width:@mainWidth;
+   height: auto;
+   .mgCenter();
+   .lunbo{
+   	width:@mainWidth;
+   	height:367px;
+   	overflow:hidden;
+   	.lunboContent{
+   		width:@mainWidth*2;
+   		height: 100%;
+   		img{
+   			.fl()
+   		}
+   	}
+   }
+}
+#app{
+	width:@mainWidth;
+  background: @bgColor;
+	height:auto;
+}
+
+
+
+
+// 分页开始
+
+.appContent{
+	height:500px;
+  .re(0,0);
+	
+	.contentCote(){
+		h3{
+	 	height:40px;
+	 	width:100%;
+	 	overflow:hidden;
+	 	border-bottom: 1px solid @borderColor;
+	 	p{
+	 		margin-top:20px;
+	 		color:@normalColor;
+	 		font-size:@fs+1;
+	 		margin-left:-4px;
+	 		strong{
+	 			.fr();
+	 			cursor:pointer
+	 		};
+	 		b{
+	 			margin-left:3px
+	 		}
+	 	}
+	 };
+	}
+	.index_productList{
+	 width:265px;
+	 height:255px;
+	 margin-left:10px;
+	 .fl();
+	 .contentCote();
+	 	li{
+	 		margin:10px 0;
+	 		color:@fColor;
+	 		font-size:@fs - 1;
+	 		&:hover{
+	 			text-decoration:underline;
+	 		};
+	 		img{
+	 			margin-bottom:3px
+	 		}
+	 	}
+   }
+   .index_companyIntro{
+       width:440px;
+       height:255px;
+       margin-left:17px;
+       margin-right:26px;
+       overflow:hidden;
+       .fl();
+       .contentCote();
+       strong{
+        margin-right:5px
+       };
+       .companyImg{
+       	height:135px;
+       	width:100%;
+       	margin-top:34px;
+       	img{
+       		.fl();
+       		margin:0 5px 10px 0
+       	};
+        p{
+        	font-size:@fs - 1;
+        	color:@fColor - #222;
+        	line-height: 21px
+        }
+       }
+   };
+   .index_news{
+   	  width:270px;
+   	  height:255px;
+   	  .contentCote();
+   	  .fl();
+   	  li{
+   	  	font-size:@fs - 1;
+   	  	padding:9px 0;
+   	  	color:@fColor - #222;
+   	  	border-bottom:1px dashed @borderColor;
+   	  	span{
+   	  		float:right;
+   	  		color:black
+   	  	};
+   	  	&:hover{
+   	  		text-decoration:underline
+   	  	}
+   	  }
+   };
+   .index_productCenter{
+       @width:740px;
+       height:250px;
+       width:@width;
+       .fl();
+       .index_productCenter_title{
+        width:@width;
+        height:33px;
+        overflow:hidden;
+        background:@normalColor;
+        h3{
+          margin-left:10px;
+          margin-top:7px;
+          color:@bgColor;
+          font-size:@fs+1;
+          span{
+            margin-right:10px;
+            .fr()
+          }
+        }
+       };
+       .index_product_show{
+         width:@width;
+         height:180px;
+         margin-top: 25px;
+         .index_product_show_pic1{
+          width:185px;
+          height:180px;
+          .fl();
+          p{
+            margin:10px 20px; 
+            .txCenter();
+            font-size:@fs - 1;
+            color:@fColor - #444;
+          }
+         };
+         img{
+          width:185px;
+          height:130px;
+          .fl();
+          margin-bottom:20px;
+         }
+       }
+   };
+   .index_contuct{
+      @width:275px;
+      width:@width;
+      height:250px;
+      .bgurl('../images/map.jpg');
+      .fr();
+      .re(-15px,0);
+      z-index:10;
+      background-repeat:no-repeat;
+      background-position: 0 38px;
+      color:@normalColor; 
+      h3{
+        height:38px;
+        width:@width - 6;
+        background:#e9e9e9 ;
+        font-size:@fs;
+        line-height:38px;
+        span{
+          margin-left:15px
+        }
+      };
+      h2{
+        text-align:center;
+        margin-top:50px;
+        font-size:@fs+6;
+      };
+      p{
+        color:black;
+        margin: 45px 55px;
+
+        font-size:@fs - 4;
+      }
+   };
+   .index_partner{
+      position:absolute;
+      bottom:-45px;
+      left:0;
+      z-index:10;
+      height:42px;
+      width:@mainWidth;
+      .bgurl('../images/Partner.jpg');
+       p{font-weight:600;
+          margin-left:15px;
+          line-height: 42px;
+          color:@bgColor;
+          font-size: @fs;
+         span{margin-left:100px;color:black;font-weight:400;
+           font-size:@fs - 1 
+          }}
+   }
+
+}
+
+.footContain{
+  width:@mainWidth;
+  height:60px;
+  margin: 0 auto;
+  margin-top:88px;
+  p{
+    .fl();
+    margin-top:15px;
+    color:@bgColor;
+    font-size:@fs - 1;
+  };
+  img{
+    .fr();
+    margin-right:20px
+  }
+}
+
+
+

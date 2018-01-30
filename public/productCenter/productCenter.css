@@ -1,0 +1,147 @@
+
+.productCenterContent {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 1273px;
+}
+.productCenterContent .aboutUs_leftSide {
+  height: auto;
+  width: 226px;
+  float: left;
+  margin: 26px 0 0 21px;
+}
+.productCenterContent .aboutUs_leftSide ul {
+  border: 1px solid #d6d6d6;
+  height: auto;
+}
+.productCenterContent .aboutUs_leftSide ul li {
+  padding: 12px 0;
+  border-bottom: 1px dashed #d6d6d6;
+  font: 600 12px '';
+  color: #828080;
+}
+.productCenterContent .aboutUs_leftSide ul li i {
+  font-style: normal;
+  cursor: pointer;
+}
+.productCenterContent .aboutUs_leftSide ul li i:hover {
+  text-decoration: underline;
+}
+.productCenterContent .aboutUs_leftSide ul li img {
+  float: left;
+  margin-right: 20px;
+}
+.productCenterContent .aboutUs_leftSide ul .aboutUs_nav_title {
+  background: #037cd9;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 8px 0;
+}
+.productCenterContent .aboutUs_leftSide ul .aboutUs_nav_title span {
+  margin-left: 20px;
+}
+.productCenterContent .aboutUs_contuct {
+  width: 200px;
+  height: 230px;
+}
+.productCenterContent .aboutUs_contuct h2,
+.productCenterContent .aboutUs_contuct p {
+  margin: 0 0 0 15px;
+}
+.productCenterContent .aboutUs_contuct h2 {
+  color: #e53333;
+  margin-top: 30px;
+  font-weight: 400;
+}
+.productCenterContent .aboutUs_contuct p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #605e5e;
+}
+.productCenterContent .aboutUs_rightSide {
+  width: 740px;
+  height: auto;
+  float: right;
+  margin-top: 25px;
+  margin-right: 37px;
+}
+.productCenterContent .aboutUs_rightSide img {
+  float: left;
+  margin-top: 3px;
+}
+.productCenterContent .aboutUs_rightSide h3 {
+  border-bottom: 1px solid #b4b4b4;
+  height: 30px;
+  margin-top: 13px;
+  font: 400 13px '';
+}
+.productCenterContent .aboutUs_rightSide h3 p {
+  height: 100%;
+  line-height: 30px;
+    color:#666666;
+}
+.productCenterContent .aboutUs_rightSide h3 span {
+  cursor: pointer;
+
+}
+.productCenterContent .aboutUs_rightSide h3 span:hover {
+  text-decoration: underline;
+}
+.productCenterContent .aboutUs_rightSide .product_product {
+  width: 670px;
+  height: 1109px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.productCenterContent .aboutUs_rightSide .product_product .product {
+  width: 310px;
+  height: 236px;
+  border: 7px solid #f1f1f1;
+  margin-top: 27px;
+  float: left;
+}
+.productCenterContent .aboutUs_rightSide .product_product .product img {
+  width: 100%;
+  height: 66.7%;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 38px;
+}
+.productCenterContent .aboutUs_rightSide .product_product .product p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.productCenterContent .aboutUs_rightSide .product_product .product p a {
+  color: #0000ee;
+}
+.productCenterContent .aboutUs_rightSide .product_product .product1 {
+  float: right;
+}
+.productCenterContent .aboutUs_rightSide ul li {
+  font-size: 13px;
+  color: #605e5e;
+  cursor: pointer;
+}
+.productCenterContent .aboutUs_rightSide .newsCenter_page {
+  width: 180px;
+  height: 34px;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+.productCenterContent .aboutUs_rightSide .newsCenter_page li {
+  padding: 9px 20px;
+  margin-right: 12px;
+  float: left;
+}
+.productCenterContent .aboutUs_rightSide .newsCenter_page li:hover {
+  background: #afadad;
+}
+.productCenterContent .aboutUs_rightSide .newsCenter_page .noSelected {
+  background: #cccccc;
+}
+.productCenterContent .aboutUs_rightSide .newsCenter_page .selected {
+  background: #afadad;
+}

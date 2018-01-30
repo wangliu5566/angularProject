@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html ng-app='myAngularProduct'>
+<head>
+    <meta charset="utf-8">
+	<title>绵阳力洋英伦科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="wrap.css">
+    <link rel="stylesheet" type="text/css" href="./index/index.css">
+    <link rel="stylesheet" type="text/css" href="./aboutUs/aboutUs.css">
+    <link rel="stylesheet" type="text/css" href="./community/community.css">
+    <link rel="stylesheet" type="text/css" href="./contactUs/contactUs.css">
+    <link rel="stylesheet" type="text/css" href="./newsCenter/newsCenter.css">
+    <link rel="stylesheet" type="text/css" href="./productCenter/productCenter.css">
+    <script type="text/javascript" src='javascripts/angular-1.2.19/angular.min.js'></script>
+    <script type="text/javascript" src='javascripts/angular-1.2.19/angular-ui-router.js'></script>
+    <script type="text/javascript" src='./config.js'></script>
+    <script type="text/javascript" src='./index/index.js'></script>
+    <script type="text/javascript" src='./aboutUs/aboutUs.js'></script>
+    <script type="text/javascript" src='./community/community.js'></script>
+    <script type="text/javascript" src='./contactUS/contactUS.js'></script>
+    <script type="text/javascript" src='./newsCenter/newsCenter.js'></script>
+    <script type="text/javascript" src='./productCenter/productCenter.js'></script>
+    <script type="text/javascript" src='./wrap.js'></script>
+
+
+
+</head>
+<body>
+    <section class="bodyContanin">
+    	<header>
+    		<figure>
+    			<img src="./images/logo.png">
+    		</figure>
+    		<span><a href="">English</a></span>
+    		<span><a href="">中文</a></span>
+    	</header>
+    	<!-- 头部 -->
+    	<nav>
+    		<div class="navContent" ng-controller='navCtrl'>
+    			<ul ng-repeat='item in nav'>
+                    <li ng-click='moveLi($index)'>{{item.name}}</li>    
+    			</ul>
+                <div id="moveLi" style="position: absolute;left: {{left}};top:-7px"></div>
+    		</div>
+    	</nav> 
+    	<!-- 导航完成 -->
+    	<section class="mainBody">
+    		<figure class="lunbo">
+    				<lunbo></lunbo>
+    		</figure>
+    		<!-- 轮播部分 -->
+    		<div id="app" ui-view>
+    	    <!-- 单页应用部分
+    	    		 -->
+               
+
+
+            </div>
+        </section>
+    </section>
+    <!-- 主体部分完成 -->
+    <footer>
+        <div class="footContain">
+            <p>绵阳力洋英伦科技有限公司版权所有 联系电话：086-0816-6337395 技术支持：思高科技<a href="">站长统计</a></p>
+            <img src="./images/gs_icon.png">
+            <img src="./images/110.jpg">
+            <img src="./images/erwei.jpg">
+        </div>
+    </footer>
+</body>
+</html>         

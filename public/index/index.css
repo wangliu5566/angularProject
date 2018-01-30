@@ -1,0 +1,250 @@
+
+.appContent {
+  height: 500px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.appContent .index_productList {
+  width: 265px;
+  height: 255px;
+  margin-left: 10px;
+  float: left;
+}
+.appContent .index_productList h3 {
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #d6d6d6;
+}
+.appContent .index_productList h3 p {
+  margin-top: 20px;
+  color: #037cd9;
+  font-size: 15px;
+  margin-left: -4px;
+}
+.appContent .index_productList h3 p strong {
+  float: right;
+  cursor: pointer;
+}
+.appContent .index_productList h3 p b {
+  margin-left: 3px;
+}
+.appContent .index_productList li {
+  margin: 10px 0;
+  color: #828080;
+  font-size: 13px;
+}
+.appContent .index_productList li i{
+  font-style: normal;
+  cursor:pointer
+}
+.appContent .index_productList li i:hover {
+  text-decoration: underline;
+}
+.appContent .index_productList li img {
+  margin-bottom: 3px;
+}
+.appContent .index_companyIntro {
+  width: 440px;
+  height: 255px;
+  margin-left: 17px;
+  margin-right: 26px;
+  overflow: hidden;
+  float: left;
+}
+.appContent .index_companyIntro h3 {
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #d6d6d6;
+}
+.appContent .index_companyIntro h3 p {
+  margin-top: 20px;
+  color: #037cd9;
+  font-size: 15px;
+  margin-left: -4px;
+}
+.appContent .index_companyIntro h3 p strong {
+  float: right;
+  cursor: pointer;
+}
+.appContent .index_companyIntro h3 p b {
+  margin-left: 3px;
+}
+.appContent .index_companyIntro strong {
+  margin-right: 5px;
+}
+.appContent .index_companyIntro .companyImg {
+  height: 135px;
+  width: 100%;
+  margin-top: 34px;
+}
+.appContent .index_companyIntro .companyImg img {
+  float: left;
+  margin: 0 5px 10px 0;
+}
+.appContent .index_companyIntro .companyImg p {
+  font-size: 13px;
+  color: #605e5e;
+  line-height: 21px;
+}
+.appContent .index_news {
+  width: 270px;
+  height: 255px;
+  float: left;
+}
+.appContent .index_news h3 {
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #d6d6d6;
+}
+.appContent .index_news h3 p {
+  margin-top: 20px;
+  color: #037cd9;
+  font-size: 15px;
+  margin-left: -4px;
+}
+.appContent .index_news h3 p strong {
+  float: right;
+  cursor: pointer;
+}
+.appContent .index_news h3 p b {
+  margin-left: 3px;
+}
+.appContent .index_news li {
+  font-size: 13px;
+  padding: 9px 0;
+  color: #605e5e;
+  border-bottom: 1px dashed #d6d6d6;
+}
+.appContent .index_news li span {
+  float: right;
+  color: #000000;
+}
+.appContent .index_news li i{
+  font-style:normal;
+  cursor:pointer
+}
+.appContent .index_news li i:hover {
+  text-decoration: underline;
+}
+.appContent .index_productCenter {
+  height: 250px;
+  width: 740px;
+  float: left;
+
+}
+.appContent .index_productCenter .index_productCenter_title {
+  width: 740px;
+  height: 33px;
+  overflow: hidden;
+  background: #037cd9;
+}
+.appContent .index_productCenter .index_productCenter_title h3 {
+  margin-left: 10px;
+  margin-top: 7px;
+  color: #ffffff;
+  font-size: 15px;
+}
+.appContent .index_productCenter .index_productCenter_title h3 span {
+  margin-right: 10px;
+  float: right;
+  cursor:pointer
+}
+
+
+.appContent .index_productCenter .index_product_content{
+  width: 740px;
+  height: 180px;
+  margin-top: 25px;
+  position:relative;
+    overflow:hidden;
+}
+.appContent .index_productCenter .index_product_show {
+  width: 2960px;
+  height: 180px;
+  position:absolute;
+  left:0;
+  top:0;
+  cursor:pointer
+}
+.appContent .index_productCenter .index_product_show .index_product_show_pic1 {
+  width: 185px;
+  height: 180px;
+  float: left;
+}
+.index_product_show_pic1:hover{
+  opacity: 0.7
+}
+.appContent .index_productCenter .index_product_show .index_product_show_pic1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #3e3c3c;
+}
+.appContent .index_productCenter .index_product_show img {
+  width: 185px;
+  height: 130px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+
+
+.appContent .index_contuct {
+  width: 275px;
+  height: 250px;
+  background: url('../images/map.jpg');
+  float: right;
+  position: relative;
+  left: -15px;
+  top: 0;
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 0 38px;
+  color: #037cd9;
+}
+.appContent .index_contuct h3 {
+  height: 38px;
+  width: 269px;
+  background: #e9e9e9 ;
+  font-size: 14px;
+  line-height: 38px;
+}
+.appContent .index_contuct h3 span {
+  margin-left: 15px;
+}
+.appContent .index_contuct h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.appContent .index_contuct p {
+  color: black;
+  margin: 45px 55px;
+  font-size: 10px;
+}
+.appContent .index_partner {
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  z-index: 10;
+  height: 42px;
+  width: 1044px;
+  background: url('../images/Partner.jpg');
+}
+.appContent .index_partner p {
+  font-weight: 600;
+  margin-left: 15px;
+  line-height: 42px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.appContent .index_partner p span {
+  margin-left: 100px;
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+}

@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+}
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+figure,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+body .bodyContanin {
+  width: 100%;
+  height: auto;
+  background: url('./images/body-bj2.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+body footer {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  background: url('./images/footer.jpg');
+}
+header {
+  width: 1044px;
+  margin: 0 auto;
+  height: 90px;
+}
+header figure {
+  margin-top: -1px;
+  float: left;
+}
+header span {
+  float: right;
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+header span a {
+  color: #ffffff;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background: #46a7f6;
+  border-top: 1px solid #138ae8;
+  border-bottom: 1px solid #138ae8;
+}
+nav .navContent {
+  width: 780px;
+  height: 100%;
+  margin: 0 auto;
+  position:relative;
+}
+nav .navContent ul {
+  float: left;
+  // margin-top: 12px;
+ position:relative;
+}
+nav .navContent li {
+  width:126px;
+  height:40px;
+  // padding: 0 30px;
+  float:left;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  position:relative;
+  z-index:5
+}
+#moveLi{
+  height:48px;
+  width:126px;
+  background: url(./images/menu-a-hover.png);
+  background-size:126px 48px;
+  z-index: 1
+}
+.mainBody {
+  width: 1044px;
+  height: auto;
+  margin: 0 auto;
+}
+.mainBody .lunbo {
+  width: 1044px;
+  height: 367px;
+  overflow: hidden;
+  position:relative
+}
+.mainBody .lunbo .lunboContent {
+  width: 4176px; 
+  height: 100%;
+  position:absolute;
+  left:0;
+  top:0;
+}
+.mainBody .lunbo .lunboContent img {
+  float: left;
+  width:1044px;
+  cursor:pointer
+}
+#app {
+  width: 1044px;
+  background: #ffffff;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+.footContain {
+  width: 1044px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+.footContain p {
+  float: left;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 13px;
+}
+.footContain img {
+  float: right;
+  margin-right: 20px;
+}

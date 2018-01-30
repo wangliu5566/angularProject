@@ -1,0 +1,37 @@
+angular
+.module('myAngularProduct',['ui.router','indexModule','aboutUsModule','communityModule','contactUSModule','newsCenterModule','productCenterModule','wrapModule'])
+.config(function($stateProvider,$urlRouterProvider){
+    $urlRouterProvider.when('','/index');
+    $stateProvider
+    .state('index',{
+    	url:'/index',
+    	templateUrl:'./index/index.html',
+    	controller:'indexCtrl'
+    })
+    .state('aboutUs',{
+    	url:'/aboutUs',
+    	templateUrl:'./aboutUs/aboutUs.html',
+    	controller:'aboutUsCtrl'
+    })
+    .state('community',{
+    	url:'/community',
+    	templateUrl:'./community/community.html',
+    	controller:'communityCtrl'
+    })
+    .state('contactUS',{
+    	url:'/contactUS',
+    	templateUrl:'./contactUS/contactUS.html',
+    	controller:'contactUSCtrl'
+    })
+    .state('newsCenter',{
+    	url:'/newsCenter',
+    	templateUrl:'./newsCenter/newsCenter.html',
+    	controller:'newsCenterCtrl'
+    })
+    .state('productCenter',{
+    	url:'/productCenter',
+    	templateUrl:'./productCenter/productCenter.html',
+    	controller:'productCenterCtrl'
+    })
+
+})

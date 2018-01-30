@@ -1,0 +1,135 @@
+
+.communityContent {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 745px;
+}
+.communityContent .aboutUs_leftSide {
+  height: auto;
+  width: 226px;
+  float: left;
+  margin: 26px 0 0 21px;
+}
+.communityContent .aboutUs_leftSide ul {
+  border: 1px solid #d6d6d6;
+  height: auto;
+}
+.communityContent .aboutUs_leftSide ul li {
+  padding: 12px 0;
+  border-bottom: 1px dashed #d6d6d6;
+  font: 600 12px '';
+  color: #828080;
+}
+.communityContent .aboutUs_leftSide ul li i {
+  font-style: normal;
+  cursor: pointer;
+}
+.communityContent .aboutUs_leftSide ul li i:hover {
+  text-decoration: underline;
+}
+.communityContent .aboutUs_leftSide ul li img {
+  float: left;
+  margin-right: 20px;
+}
+.communityContent .aboutUs_leftSide ul .aboutUs_nav_title {
+  background: #037cd9;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 8px 0;
+}
+.communityContent .aboutUs_leftSide ul .aboutUs_nav_title span {
+  margin-left: 20px;
+}
+.communityContent .aboutUs_contuct {
+  width: 200px;
+  height: 230px;
+}
+.communityContent .aboutUs_contuct h2,
+.communityContent .aboutUs_contuct p {
+  margin: 0 0 0 15px;
+}
+.communityContent .aboutUs_contuct h2 {
+  color: #e53333;
+  margin-top: 30px;
+  font-weight: 400;
+}
+.communityContent .aboutUs_contuct p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #605e5e;
+}
+.communityContent .aboutUs_rightSide {
+  width: 740px;
+  height: 430px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 37px;
+}
+.communityContent .aboutUs_rightSide img {
+  float: left;
+  margin-top: 3px;
+}
+.communityContent .aboutUs_rightSide h3 {
+  border-bottom: 1px solid #b4b4b4;
+  height: 30px;
+  margin-top: 13px;
+  font: 400 13px '';
+}
+.communityContent .aboutUs_rightSide h3 p {
+  height: 100%;
+  line-height: 30px;
+  color: #605e5e;
+}
+.communityContent .aboutUs_rightSide h3 span {
+  cursor: pointer;
+}
+.communityContent .aboutUs_rightSide h3 span:hover {
+  text-decoration: underline;
+}
+.communityContent .aboutUs_rightSide ul {
+  margin: 40px 20px 0 20px;
+}
+.communityContent .aboutUs_rightSide ul li {
+  padding: 10px 0;
+  border-bottom: 1px dashed #d6d6d6;
+  font-size: 13px;
+  color: #605e5e;
+  cursor: pointer;
+}
+.communityContent .aboutUs_rightSide ul li i {
+  font-style: normal;
+}
+.communityContent .aboutUs_rightSide ul li i:hover {
+  text-decoration: underline;
+}
+.communityContent .aboutUs_rightSide ul li:active {
+  color: blue;
+}
+.communityContent .aboutUs_rightSide ul li img {
+  margin-right: 15px;
+}
+.communityContent .aboutUs_rightSide ul li span {
+  float: right;
+}
+.communityContent .aboutUs_rightSide .newsCenter_page {
+  width: 180px;
+  height: 34px;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+.communityContent .aboutUs_rightSide .newsCenter_page li {
+  padding: 9px 20px;
+  margin-right: 12px;
+  float: left;
+}
+.communityContent .aboutUs_rightSide .newsCenter_page li:hover {
+  background: #afadad;
+}
+.communityContent .aboutUs_rightSide .newsCenter_page .noSelected {
+  background: #cccccc;
+}
+.communityContent .aboutUs_rightSide .newsCenter_page .selected {
+  background: #afadad;
+}
